@@ -1,0 +1,53 @@
+/* phone */
+@media only screen and (max-width: 767px) {
+	html {
+	}
+	.intro {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 65%;
+	}
+	.start {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	}
+
+}
+
+
+/* macbook */
+	@media only screen and (min-width: 767px) {
+	.intro {
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 27%;
+	}
+	.start {
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 3%;
+	}
+}
+
+html {
+	background-image: linear-gradient(#C6FFAD,#E6ADFF);
+	background-size: cover;
+	height: 100%;
+	color: white;
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
+	background-repeat: no-repeat;
+}
+
+h2 {
+	visibility: none;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: #FEFFCF;
+}

@@ -1,0 +1,139 @@
+@media only screen and (max-width: 767px) {
+	html {
+	background-image: linear-gradient( to bottom,
+    #E6ADFF 0% 50%, 
+    #C6FFAD 50% 100%
+    );
+    background-repeat: no-repeat;
+    height: 100%;
+    }
+    #left {
+    color: black;
+    position: absolute;
+    width: 70%;
+    top: 20%;
+    left: 10%; /* for positioning only */
+    }
+    #right {
+    color: white;
+    width: 70%;
+    top: 68%;
+    left: 10%; /* for positioning only */
+    position: absolute;
+    }
+    .intro, .story {
+    background-color: white;
+    width: 80%;
+    height:70%;
+    left: 6%;
+    top: 13%;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    }
+    a {
+    font-size: 50px;
+    top: 92%;
+    position: absolute;
+    left: 42%;
+    text-align: center;
+    text-decoration: none;
+    color: #FEFFCF;
+    }   
+
+}
+
+
+/* macbook */
+	@media only screen and (min-width: 767px) {
+	html {
+	background-image: linear-gradient(
+    to right, 
+    #E6ADFF 0%, 
+    #E6ADFF 50%, 
+    #C6FFAD 50%, 
+    #C6FFAD 100%
+    );
+    }
+
+    #left {
+    color: black;
+    width: 35%;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    overflow: hidden;
+    height: 7%;
+    }
+    #right {
+    color: white;
+    width: 35%;
+    left: 55%;
+    top: 70%;
+    position: absolute; 
+    overflow: hidden;
+    height: 7%;
+    }
+    .intro {
+    background-color: white;
+    width: 60%;
+    left: 18%;
+    top: 33.33%;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    }
+    .story {
+    background-color: white;
+    width: 60%;
+    left: 18%;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    height: 40%;
+    top: 30%;
+    }
+    a {
+    font-size: 40px;
+    top: 70%;
+    position: absolute;
+    left: 48%;
+    text-align: center;
+    text-decoration: none;
+    color: #FEFFCF;
+
+}
+}
+
+html {
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+}
+#left {
+    background-color: #E6ADFF;
+    color: white;
+    padding: 10px;
+
+}
+#right {
+    background-color: #C6FFAD;
+    color: black;
+    padding: 10px;
+}
+
+.intro, .story {
+    overflow: scroll;
+
+}
+
+#rest {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    height: 25%;
+    width: 35%;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+

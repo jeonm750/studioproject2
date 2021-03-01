@@ -1,0 +1,21 @@
+html {
+	background-color: #E6ADFF;
+	font-family: 'VT323', monospace;
+    font-size: 30px;
+}
+
+.story {
+    background-color: black;
+    width: 60%;
+    left: 18%;
+    height: 40%;
+    top: 30%;
+    text-align: center;
+    padding: 20px;
+    position: absolute; 
+    overflow: scroll;
+}
+
+.first, .second, .third, .fourth, .fifth,.sixth {
+	color: white;
+}
