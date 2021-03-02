@@ -49,5 +49,9 @@ $('.fifth').click(function(){
     $('.sixth').show();       
 	});
 
+  $('.next').hide();
+$('.fifth').click(function(){
+    $('.next').show();       
+  });
 });
 
